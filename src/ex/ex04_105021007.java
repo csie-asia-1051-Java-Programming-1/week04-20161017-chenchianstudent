@@ -19,8 +19,8 @@ public class ex04_105021007 {
 		int n=scn.nextInt();
 		System.out.print("請輸入一字元符號");
 		char n1=scn.next().charAt(0);
-		for(int i=0;i<n;i++){
-			for(int j=0;j<i-1;j++){
+		for(int i=1;i<=n;i++){
+			for(int j=n;j>=i;j--){
 				System.out.print(n1);}
 			System.out.println();}
 	}
