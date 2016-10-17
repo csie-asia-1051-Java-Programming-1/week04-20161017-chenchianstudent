@@ -17,7 +17,7 @@ public class ex02_105021007 {
 		System.out.print("請再輸入一正整數");
 		int m=scn.nextInt();
 		int a=n*m;
-		System.out.print(a);
+		System.out.print(n+"*"+m+"="+a);
 		System.out.println("   是否要繼續(y/n):");
 		char b=scn.next().charAt(0);
 		if(b=='n' ||b=='N'){System.out.print("謝謝使用");break;}
